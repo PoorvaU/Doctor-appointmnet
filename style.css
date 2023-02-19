@@ -1,0 +1,109 @@
+*{
+	margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topbar{
+	display: flex;
+	justify-content: space-between;
+	background:linear-gradient(to right, #ff9966 , #ff5e62);
+	
+}
+.topbar a{
+	text-decoration: none;
+	color:black;
+}
+.link{
+	margin-top:30px;
+}
+.logo{
+	width:80px;
+	height:80px;
+}
+.signin{
+	color:gray;
+	border:2px solid;
+	border-color: rgb(211, 209, 209);
+	background-color: white;
+	padding:8px 10px;
+	cursor:pointer;
+	border-radius:4px;
+	margin-top:20px;
+	margin-right:40px;
+    
+}
+.signin:hover{
+	color:rgb(43, 194, 245);
+	border-color:rgb(43, 194, 245);
+}
+.content h2{
+	margin-bottom:10px;
+    font-size:65px;
+    width:900px;
+    font-weight: 400;
+    color:rgb(79, 79, 79);
+    margin-left:40px;
+    margin-bottom:60px;
+    padding-top:50px;
+
+}
+.content{
+	text-align:center;
+    background-color: rgb(255, 240, 187);
+    padding-bottom:90px;
+    
+}
+input,select{
+	font-size:18px;
+	padding:10px;
+}
+.sound{
+	display: flex;
+	flex-direction: column;
+}
+.pic{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.sidepic{
+    float:right;
+    transform: translate(-42px,-180px);
+}
+.speciality h2{
+    font-size: 30px;
+    padding-bottom: 24px;
+    font-weight: 400 ;
+    margin-bottom: 20px;
+
+}
+.speciality{
+    margin-top:40px; 
+    margin-left:60px; 
+    margin-bottom:80px;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap:30px;
+    display: flex   ;
+      
+
+}
+.card{
+    box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+    width:150px;
+    margin-right:10px;
+}
+.special{
+    width: 150px;
+    height: 150px;
+    margin-bottom:12px;
+    object-fit: cover;
+}
+.name{
+    font-size:14px;
+    color:rgb(65, 63, 63);
+    margin-left:8px;
+    padding-bottom:5px;
+}
